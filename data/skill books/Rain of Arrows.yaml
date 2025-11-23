@@ -1,7 +1,6 @@
 ---
 buffs:
 - attribute: Attack
-  conditions: []
   passive: 0
   targetedType: Ranged Troops
   value:
@@ -17,4 +16,5 @@ buffs:
     number: 15
     unit: percentage
 name: Rain of Arrows
-text: Increases your ranged troops’ attack by 25% and reduces enemy mounted troops’ attack by 15% when General is leading the army.
+text: >-
+  Increases your ranged troops' attack by 25% and reduces enemy mounted troops' attack by 15% when General is leading the army.

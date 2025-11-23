@@ -1,7 +1,6 @@
 ---
 buffs:
 - attribute: Attack
-  conditions: []
   passive: 0
   targetedType: Ranged Troops
   value:
@@ -24,4 +23,5 @@ buffs:
     number: 10
     unit: percentage
 name: Hammer of the Gauls
-text: Increases ranged troops’ attack by 30% and increases ranged troops’ defense and HP by 10% when General is leading the army.
+text: >-
+  Increases ranged troops' attack by 30% and increases ranged troops' defense and HP by 10% when General is leading the army.

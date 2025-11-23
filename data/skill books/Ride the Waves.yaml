@@ -1,10 +1,12 @@
 ---
 name: Ride the Waves
 text: >-
-  Increases mounted troops’ attack by 45% and increases mounted troops’ defense and HP by 40% when General is leading the army to attack.
+  Increases mounted troops' attack by 45% and increases mounted troops' defense and HP by 40% when General is leading the army to attack.
 buffs:
   - attribute: Attack
     targetedType: Mounted Troops
+    conditions:
+      - Attacking
     value:
       number: 45
       unit: percentage
